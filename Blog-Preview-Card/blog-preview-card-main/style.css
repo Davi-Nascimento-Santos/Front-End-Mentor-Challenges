@@ -8,6 +8,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .main {
     width: 376px;
@@ -17,6 +18,7 @@ body {
     border: 1px solid #000;
     border-radius: 5%;
     box-shadow: 10px 10px #000;
+    margin: 0;
 }
 img {
     min-width: 300px;
@@ -31,14 +33,15 @@ img {
     padding: 3px 3px;
     border-radius: 3px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 800;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     margin-bottom: 0.8rem;
 }
 #pub-date {
     display: block;
     font-size: 1rem;
+    margin: 0.5rem 0;
 }
 #main-title {
     font-size: 1.5rem;
@@ -46,4 +49,26 @@ img {
 }
 #legend {
     color: hsl(0, 0%, 50%);
+    padding-bottom: 0.5rem;
+}
+figure {
+    padding: none;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+#Hooper-picture {
+    width: 35px;
+    height: 35px;
+    min-width: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    display: inline;
+}
+#man-name {
+    display: inline;
+    font-weight: 800;
+    font-size: 0.9rem;
 }
